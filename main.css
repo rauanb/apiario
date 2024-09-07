@@ -1,0 +1,77 @@
+/* Definição de cores */
+:root {
+    --cor-primaria: #b36511;;
+    --cor-secundaria: #fff1e3;
+    --cor-terciaria: #fff;
+    /* --cor-primaria: #e15f41;
+    --cor-secundaria: #ffeae6;
+    --cor-terciaria: #fff; */
+}
+
+body {
+    font-family: Roboto, sans-serif;
+}
+
+.navbar {
+    background-color: var(--cor-primaria);
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: var(--cor-terciaria);
+    color: var(--cor-primaria);
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover{
+    color: var(--cor-terciaria)
+}
+
+.navbar-toggler {
+    background-color: var(--cor-secundaria)
+}
+
+.section-title {
+    font-family: Pacifico, cursive;
+}
+
+.text-colored {
+    color: var(--cor-primaria);
+}
+
+/* Adicionar seções alternadas com o fundo colorido */
+#sobre,
+#cardapio,
+#produtos {
+    background-color: var(--cor-secundaria)
+}
+
+.nav-cardapio .nav-link.active,
+.nav-cardapio .nav-link.active:hover,
+#contato button {
+    background-color: var(--cor-primaria);
+    color: var(--cor-terciaria)
+}
+
+.nav-cardapio .nav-link:hover {
+    color: var(--cor-primaria);
+}
+
+.social-link li {
+    text-decoration: none;
+    display: inline;
+}
+
+.social-link a {
+    text-decoration: none;
+}
+
+@media (max-width: 767px){
+    .carousel-item img {
+        height: 280px;
+    }
+}
+
+#produtos {
+    height: 480px;
+}
