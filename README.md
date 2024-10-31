@@ -2,7 +2,6 @@
 A proposta desse projeto é criar uma identidade digital para o apicultor Valdecir Liberato, meu pai.
 
 ## Pŕoximas melhorias
-* Atualizar seção Produtos
 * Atualizar seção Contato
     * Retirar formulário
     * Adicionar contatos por região
