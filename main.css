@@ -12,6 +12,20 @@ body {
     font-family: Roboto, sans-serif;
 }
 
+.footer {
+    background-color: var(--cor-primaria);
+    padding: 16px;
+
+    p {
+        color: var(--cor-terciaria);
+        
+        a {
+            /* text-decoration: none; */
+            color: var(--cor-terciaria);
+        }
+    }
+}
+
 .navbar {
     background-color: var(--cor-primaria);
 }
