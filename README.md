@@ -7,7 +7,7 @@ A proposta desse projeto é criar uma identidade digital para o apicultor Valdec
 * Bootstrap
 * Git
 
-## Pŕoximas melhorias
+## Próximas melhorias
 * Atualizar seção Contato
     * Retirar formulário
     * Adicionar contatos por região
